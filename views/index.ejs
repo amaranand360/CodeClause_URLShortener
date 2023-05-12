@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortner website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+        <div class="header">
+            Create Short URL
+        </div>
+
+        <form method="post" action="/shorturls"  >
+        <div class="form" ">
+            <div class="form-element">
+                <label for="longurl">Enter link</label>
+                <input type="text" name="orignalurl" placeholder="http://site.com">
+            </div>
+            <div class="form-element">
+                <button type="submit" name="shorturl">Create Short URL</button>
+            </div>
+
+        </div>
+    </form>
+        
+    
+
+        <div class="list">
+            <h2>Shorten links</h2>
+           
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>LongURL</th>
+                        <th>ShortURL</th>
+                    </tr>
+                </thead>
+
+                 <tbody>
+
+                    <% newUrl.forEach((shortURL) => { %>
+                        <tr>
+                          <td><a href="<%= shortURL.fullurl %>"><%= shortURL.fullurl %></a></td>
+                          <td><a href="<%= shortURL.shorturl %>"><%= shortURL.shorturl %></a></td>
+                        </tr>
+                      <% }) %>
+              
+                </tbody>
+                
+
+  
+            </table>
+        </div>
+    
+
+</body>
+</html>
