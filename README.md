@@ -11,8 +11,7 @@ This is a simple URL shortener website built using Node.js, Express.js, and Mong
     Start the server: npm start
     Open your web browser and go to http://localhost:8080
     
-# 🎯 Usage
-
+# Usage 🕹️
 To shorten a URL, simply enter it into the input field on the website and click the "Shorten" button. The website will generate a shortened URL for you, which you can then use to redirect users to the original URL.
     
  
@@ -22,17 +21,29 @@ To shorten a URL, simply enter it into the input field on the website and click 
 
 # Features 🎉
 
-    - Shorten long URLs to make them easier to share and remember 🔗
-    - Redirect users to the original, long URL when they click on the shortened URL 🔄
-    - Store URLs in a MongoDB database for persistence 📊
+    -  Shorten long URLs to make them easier to share and remember 🔗
+    -  Redirect users to the original, long URL when they click on the shortened URL 🔄
+    -  Store URLs in a MongoDB database for persistence 📊
 
 # Technologies Used 💻
-
-    - Node.js 🟢
-    - Express.js 🚂
-    - MongoDB 🍃
-    - Bootstrap 📦
     
+    Node.js 🟢
+   
+    Express.js 🚂
+    
+  
+    MongoDB 🍃
+    
+    
+    HTML 🌐
+    
+    
+    CSS 🎨
+    
+ 
+   JavaScript 🚀
+    
+   
   # Contributing 🤝
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. 🙌
