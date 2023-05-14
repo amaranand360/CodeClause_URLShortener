@@ -1,6 +1,6 @@
 # CodeClause_URLShortener
 
-<h3>URL Shortener 🔗</h3>
+<h3>Wellcome my URL Shortener website 🔗</h3>
 
 This is a simple URL shortener website built using Node.js, Express.js, and MongoDB. The website allows users to submit a long URL and receive a shortened URL in return. When the shortened URL is clicked, the user is redirected to the original, long URL. 🌐
 
@@ -11,7 +11,9 @@ This is a simple URL shortener website built using Node.js, Express.js, and Mong
     Start the server: npm start
     Open your web browser and go to http://localhost:8080
     
+
 # Usage 🕹️
+
 To shorten a URL, simply enter it into the input field on the website and click the "Shorten" button. The website will generate a shortened URL for you, which you can then use to redirect users to the original URL.
     
  
@@ -19,34 +21,29 @@ To shorten a URL, simply enter it into the input field on the website and click 
  
 -  Live at : https://urlshortener-53gy.onrender.com/
 
-# Features 🎉
-
+# 🎉 Features 
     
-    Shorten long URLs to make them easier to share and remember 🔗
+  - Shorten long URLs to make them easier to share and remember 🔗
     
-    Redirect users to the original, long URL when they click on the shortened URL 🔄
+  - Redirect users to the original, long URL when they click on the shortened URL 🔄
     
-    Store URLs in a MongoDB database for persistence 📊
+  - Store URLs in a MongoDB database for persistence 📊
     
-    Responsive Design
+  - Responsive Design
 
 # Technologies Used 💻
     
-    Node.js 🟢
+   - Node.js 🟢
    
-    Express.js 🚂
+   - Express.js 🚂
     
-  
-    MongoDB 🍃
+   - MongoDB 🍃
     
+   - HTML 🌐
     
-    HTML 🌐
+   - CSS 🎨
     
-    
-    CSS 🎨
-    
- 
-   JavaScript 🚀
+   - JavaScript 🚀
     
    
   # Contributing 🤝
@@ -56,4 +53,11 @@ If you'd like to contribute to this project, feel free to fork the repository an
 # 📧 Contact
 
 If you have any questions or comments, please feel free to contact me at: amar.anand0030@gmail.com 👈
+
+# Screenshot 
+
+![Screenshot (90)](https://github.com/amaranand360/CodeClause_URLShortener/assets/122713145/c046e7f6-3b6b-4518-9d20-0ee23278368f)
+
+<h3>  Thank you for visiting my Urlshortener website . </h3>
+
 
