@@ -17,13 +17,18 @@ To shorten a URL, simply enter it into the input field on the website and click 
  
  # 🚀 Live Demo
  
--  Live at : https://todoappclientside.vercel.app
+-  Live at : https://urlshortener-53gy.onrender.com/
 
 # Features 🎉
 
-    -  Shorten long URLs to make them easier to share and remember 🔗
-    -  Redirect users to the original, long URL when they click on the shortened URL 🔄
-    -  Store URLs in a MongoDB database for persistence 📊
+    
+    Shorten long URLs to make them easier to share and remember 🔗
+    
+    Redirect users to the original, long URL when they click on the shortened URL 🔄
+    
+    Store URLs in a MongoDB database for persistence 📊
+    
+    Responsive Design
 
 # Technologies Used 💻
     
