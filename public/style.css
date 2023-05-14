@@ -17,7 +17,7 @@ body {
 }
 .form {
     padding:50px 20px;
-    background:#d2e9f7;
+    background: lightseagreen;
 }
 .form > div {
     width:400px;
@@ -62,28 +62,18 @@ body {
     padding:5px;
 }
 .list table tbody tr:nth-child(odd){
-    background: #eee;
+    background-color: #ADD8E6;
+    /* background-color: lightgreen; */
+    /* background: lightseagreen; */
 }
 
-/*Responsive styling Zone*/
+/**********Responsive styling Zone************/
 @media only screen and (max-width: 800px) {
-  
-    
     .list {
-        width:600px;
+        width:auto;
     }
-
   }
-
-@media only screen and (max-width: 600px) {
-  
-    
-    .list {
-        width:450px;
-    }
-
-  }
-  @media only screen and (max-width: 450px) {
+   @media only screen and (max-width: 430px) {
     body{
         overflow-x: hidden;
     }
@@ -91,58 +81,14 @@ body {
         width:290px;
     }
     .list {
-        width:390px;
-        margin:40px auto;
+        margin:30px auto;
     }
-
   }
-  @media only screen and (max-width: 390px) {
+  @media only screen and (max-width: 310px) {
     body{
         overflow-x: hidden;
     }
     .form > div {
-        width:280px;
-    }
-    .list {
-        width:320px;
-        margin:40px auto;
-    }
-
-  }
-
-@media only screen and (max-width: 310px) {
-    body{
-        overflow-x: hidden;
-    }
-    .form > div {
-        width:200px;
-        margin: 5px auto;
-    }
-    .form-element {
-      width: 100%;
-
-    }
-    input[type="text"], button {
-      width: 90%;
-      margin: 5px 0;
-    }
-    .list {
-        width:300px;
-        margin:40px auto;
-    }
-    table {
-      width: 100%;
-    }
-    table td {
-      display: block;
-    }
-    table td:nth-child(1):before {
-      content: "Long URL: ";
-      font-weight: bold;
-    }
-    table td:nth-child(2):before {
-      content: "Short URL: ";
-      font-weight: bold;
+        width:250px;
     }
   }
-

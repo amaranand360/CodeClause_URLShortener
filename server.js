@@ -48,3 +48,24 @@ app.listen(process.env.PORT ,() => {
 console.log(`Server is working on port:${process.env.PORT}`)
 });
 
+
+
+
+
+
+
+
+
+//database modles
+// const Schema = new mongoose.Schema({
+//   fullurl : {
+//       type: String,
+//       required: true,
+//   },
+//   shorturl: {
+//       type: String,
+//       required: true,
+//       default:shortId.generate
+//   },
+      
+// });
